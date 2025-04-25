@@ -22,16 +22,10 @@
     <p>Autorzy: Michał Warzocha, Kacper Kosek, Patryk Pacocha</p>
     <div class="mt-4">
         <a href="mapa.html" class="btn btn-primary">Mapa</a>
-        <button class="btn btn-danger" onclick="sendSOS()">SOS</button>
+        <a href="sos.html" class="btn btn-danger">SOS</a>
+
     </div>
 </div>
-  <script>
-    function sendSOS() {
-      if (navigator.vibrate) {
-         navigator.vibrate([200, 200, 200, 600, 600, 600, 200, 200, 200]);
-      }
-  }
-</script>
   <script src="js/main.js"></script>
 </body>
 </html>
